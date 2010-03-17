@@ -1,0 +1,22 @@
+development: &defaults
+#  adapter: postgresql
+#  username: postgres
+#  password:
+
+  adapter: mysql
+  username: root
+  password: qwerty
+
+  database: mechanize_presentation
+  host: localhost
+  encoding: utf8
+  
+production:
+  <<:       *defaults
+  pool: 10
+
+test:
+  adapter: sqlite3
+  database: db/test.sqlite3
+  pool: 5
+  timeout: 5000

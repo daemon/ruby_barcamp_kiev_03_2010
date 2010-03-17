@@ -1,0 +1,14 @@
+log/*.log
+log/*.lock
+tmp/**/*
+.DS_Store
+db/schema.rb
+db/*.sqlite3
+config/database.yml
+config/newrelic.yml
+config/app.yml
+config/loops.yml
+.svn
+public/system/**/*
+.*sw*
+.backups
