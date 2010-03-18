@@ -3,7 +3,7 @@ class Parser
   ROOT_URL = 'http://mega.genn.org/'
   
   def initialize
-    @browser = WWW::Mechanize.new {|a| a.follow_meta_refresh = true }
+    @browser = Mechanize.new {|a| a.follow_meta_refresh = true }
     @browser.max_history = 2
     @browser.user_agent_alias = 'Linux Mozilla'
     # @browser.set_proxy '127.0.0.1', '8118'
@@ -11,7 +11,7 @@ class Parser
   end
 
   def set_some_cookies
-    cookie = WWW::Mechanize::Cookie.new 'is_bot', "advanced one"
+    cookie = Mechanize::Cookie.new 'is_bot', "advanced one"
     cookie.path = '/'
     cookie.domain = 'mega.genn.org'
 
