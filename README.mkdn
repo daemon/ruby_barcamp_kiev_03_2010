@@ -30,3 +30,5 @@
 # Personal thanks #
 
 I can't tell how much I appreciate [Dmytro Shteflyuk's](http://kpumuk.info/) assistance.
+
+Also many thanx to [Vasili Sviridov](http://twitter.com/vsviridov) for his help with RabbitMQ.
