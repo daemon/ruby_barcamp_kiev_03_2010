@@ -1,0 +1,28 @@
+# Contents #
+
+*demo_app* includes sample rails application with all features mentioned in talk.
+
+*slides* includes slides for talk.
+
+# Links #
+
+* [Mechanize](http://mechanize.rubyforge.org/)
+* JS engines
+    * [V8](http://code.google.com/p/v8/)
+    * [SpiderMonkey](http://www.mozilla.org/js/spidermonkey/)
+    * [TraceMonkey](https://wiki.mozilla.org/JavaScript:TraceMonkey)
+* [Harmony](http://github.com/mynyml/harmony/)
+    * [Johnson](http://github.com/jbarnette/johnson/)
+* [delayed_job](http://github.com/collectiveidea/delayed_job/)
+* [loops](http://github.com/kovyrin/loops/)
+* [bunny](http://github.com/celldee/bunny/)
+    * [amqp](http://github.com/tmm1/amqp/)
+* [RabbitMQ](http://www.rabbitmq.com/)
+    * [Alice](http://github.com/auser/alice/)
+    * [Wonderland](http://github.com/auser/wonderland/)
+
+Useful [post](http://blogs.digitar.com/jjww/2009/01/rabbits-and-warrens/) about RabbitMQ.
+
+# Personal thanks #
+
+I can't tell how much I appreciate [Dmytro Shteflyuk's](http://kpumuk.info/) assistance.
