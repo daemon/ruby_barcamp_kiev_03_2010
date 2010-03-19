@@ -41,7 +41,7 @@ class Parser
   
   def grab_dotted_pattern(html)
     js_page = Harmony::Page.new html
-    js_page.load('http://code.jquery.com/jquery-1.4.2.min.js')
+    js_page.load(File.join(RAILS_ROOT, 'assets/jquery-1.4.2.min.js'))
     asciify_dots(js_page.execute_js("$('.mclrs').html()"))
   end
   
