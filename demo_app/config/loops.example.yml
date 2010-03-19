@@ -3,7 +3,7 @@
 
 # This section is used to control loops manager
 global:
-  logger: stdout
+  logger: log/loops/loops.log
   poll_period: 5
   workers_engine: fork
 
