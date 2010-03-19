@@ -21,7 +21,11 @@
     * [Alice](http://github.com/auser/alice/)
     * [Wonderland](http://github.com/auser/wonderland/)
 
-Useful [post](http://blogs.digitar.com/jjww/2009/01/rabbits-and-warrens/) about RabbitMQ.
+## Useful stuff ##
+
+* [TextMate to Keynote in 2 steps](http://blog.pastie.org/2008/06/textmate-to-key.html)
+* [Copy as RTF](http://github.com/drnic/copy-as-rtf-tmbundle)
+* Great [post](http://blogs.digitar.com/jjww/2009/01/rabbits-and-warrens/) about RabbitMQ.
 
 # Personal thanks #
 
