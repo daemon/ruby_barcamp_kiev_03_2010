@@ -1,0 +1,193 @@
+E : 2010-03-19 15:34:30 : loop[post_extractor/23079]: Subscribing for the queue post_extractor...
+I : 2010-03-19 15:34:40 : loop[post_extractor/23079]: Received post url: http://mega.genn.org/en/2010/mini-cooper-i-will-buy/
+I : 2010-03-19 15:34:40 : loop[post_extractor/23078]: Received post url: http://mega.genn.org/en/2010/ipad/
+I : 2010-03-19 15:34:50 : loop[post_extractor/23079]: Received post url: http://mega.genn.org/en/2010/prawn-the-queen-salad/
+I : 2010-03-19 15:34:53 : loop[post_extractor/23079]: Received post url: http://mega.genn.org/en/2010/infinite-real-life-calendar/
+I : 2010-03-19 15:34:55 : loop[post_extractor/23078]: Received post url: http://mega.genn.org/en/2010/identify-yourself/
+I : 2010-03-19 15:34:56 : loop[post_extractor/23079]: Received post url: http://mega.genn.org/en/2010/working-parts/
+I : 2010-03-19 15:34:58 : loop[post_extractor/23078]: Received post url: http://mega.genn.org/en/2010/new-peugeot-logo/
+I : 2010-03-19 15:34:59 : loop[post_extractor/23079]: Received post url: http://mega.genn.org/en/2009/how-to-draw-a-flying-kawaii-cat/
+I : 2010-03-19 15:35:02 : loop[post_extractor/23078]: Received post url: http://mega.genn.org/en/2009/news-spectrum/
+F : 2010-03-19 15:35:02 : Worker exited with error: exit
+  /Users/dm/Projects/tmp/mechanize-presentation/lib/loops/amqp/bunny.rb:98:in `exit'
+  /Users/dm/Projects/tmp/mechanize-presentation/lib/loops/amqp/bunny.rb:98:in `disconnect_client_and_exit'
+  /Users/dm/Projects/tmp/mechanize-presentation/lib/loops/amqp/bunny.rb:62:in `run'
+  /Users/dm/Projects/tmp/mechanize-presentation/lib/loops/amqp/bunny.rb:36:in `times'
+  /Users/dm/Projects/tmp/mechanize-presentation/lib/loops/amqp/bunny.rb:36:in `run'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/engine.rb:155:in `start_loop'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/engine.rb:163:in `call'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/engine.rb:163:in `start_loop'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/worker.rb:37:in `call'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/worker.rb:37:in `run'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/worker.rb:32:in `fork'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/worker.rb:32:in `run'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/worker_pool.rb:33:in `check_workers'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/worker_pool.rb:30:in `each'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/worker_pool.rb:30:in `check_workers'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/process_manager.rb:32:in `monitor_workers'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/process_manager.rb:30:in `each'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/process_manager.rb:30:in `monitor_workers'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/process_manager.rb:28:in `loop'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/process_manager.rb:28:in `monitor_workers'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/engine.rb:52:in `start_loops!'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/commands/start_command.rb:19:in `execute'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/command.rb:24:in `invoke'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/cli/commands.rb:85:in `run!'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/cli/commands.rb:19:in `execute'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/bin/loops:8
+  script/loops:19:in `load'
+  script/loops:19
+F : 2010-03-19 15:35:02 : Terminating post_extractor worker: 23079
+I : 2010-03-19 15:35:06 : loop[post_extractor/23078]: Received post url: http://mega.genn.org/en/2009/chuck-brought-pain-to-appstore/
+F : 2010-03-19 15:35:10 : Worker exited with error: exit
+  /Users/dm/Projects/tmp/mechanize-presentation/lib/loops/amqp/bunny.rb:98:in `exit'
+  /Users/dm/Projects/tmp/mechanize-presentation/lib/loops/amqp/bunny.rb:98:in `disconnect_client_and_exit'
+  /Users/dm/Projects/tmp/mechanize-presentation/lib/loops/amqp/bunny.rb:62:in `run'
+  /Users/dm/Projects/tmp/mechanize-presentation/lib/loops/amqp/bunny.rb:36:in `times'
+  /Users/dm/Projects/tmp/mechanize-presentation/lib/loops/amqp/bunny.rb:36:in `run'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/engine.rb:155:in `start_loop'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/engine.rb:163:in `call'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/engine.rb:163:in `start_loop'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/worker.rb:37:in `call'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/worker.rb:37:in `run'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/worker.rb:32:in `fork'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/worker.rb:32:in `run'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/worker_pool.rb:33:in `check_workers'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/worker_pool.rb:30:in `each'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/worker_pool.rb:30:in `check_workers'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/process_manager.rb:32:in `monitor_workers'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/process_manager.rb:30:in `each'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/process_manager.rb:30:in `monitor_workers'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/process_manager.rb:28:in `loop'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/process_manager.rb:28:in `monitor_workers'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/engine.rb:52:in `start_loops!'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/commands/start_command.rb:19:in `execute'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/command.rb:24:in `invoke'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/cli/commands.rb:85:in `run!'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/cli/commands.rb:19:in `execute'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/bin/loops:8
+  script/loops:19:in `load'
+  script/loops:19
+F : 2010-03-19 15:35:10 : Terminating post_extractor worker: 23078
+E : 2010-03-19 15:35:13 : loop[post_extractor/23227]: Subscribing for the queue post_extractor...
+I : 2010-03-19 15:35:13 : loop[post_extractor/23227]: Received post url: http://mega.genn.org/2009/sorry-mario-the-princess-is-right-after-the-crossroads/
+E : 2010-03-19 15:35:18 : loop[post_extractor/23240]: Subscribing for the queue post_extractor...
+I : 2010-03-19 15:35:18 : loop[post_extractor/23240]: Received post url: http://mega.genn.org/2009/quo-vadis/
+I : 2010-03-19 15:35:27 : loop[post_extractor/23227]: Received post url: http://mega.genn.org/2009/thexder-neo/
+I : 2010-03-19 15:35:30 : loop[post_extractor/23227]: Received post url: http://mega.genn.org/2009/smooth/
+I : 2010-03-19 15:35:31 : loop[post_extractor/23240]: Received post url: http://mega.genn.org/2009/mask-so-flu-wont-recognize-you/
+I : 2010-03-19 15:35:32 : loop[post_extractor/23227]: Received post url: http://mega.genn.org/2009/portugal-pro/
+I : 2010-03-19 15:35:34 : loop[post_extractor/23240]: Received post url: http://mega.genn.org/2009/and-its-1984/
+I : 2010-03-19 15:35:38 : loop[post_extractor/23240]: Received post url: http://mega.genn.org/2009/textus/
+I : 2010-03-19 15:35:42 : loop[post_extractor/23240]: Received post url: http://mega.genn.org/2009/interview-for-smashing-magazine/
+I : 2010-03-19 15:35:45 : loop[post_extractor/23227]: Received post url: http://mega.genn.org/2009/call-the-normal-way/
+F : 2010-03-19 15:35:49 : Worker exited with error: exit
+  /Users/dm/Projects/tmp/mechanize-presentation/lib/loops/amqp/bunny.rb:98:in `exit'
+  /Users/dm/Projects/tmp/mechanize-presentation/lib/loops/amqp/bunny.rb:98:in `disconnect_client_and_exit'
+  /Users/dm/Projects/tmp/mechanize-presentation/lib/loops/amqp/bunny.rb:62:in `run'
+  /Users/dm/Projects/tmp/mechanize-presentation/lib/loops/amqp/bunny.rb:36:in `times'
+  /Users/dm/Projects/tmp/mechanize-presentation/lib/loops/amqp/bunny.rb:36:in `run'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/engine.rb:155:in `start_loop'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/engine.rb:163:in `call'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/engine.rb:163:in `start_loop'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/worker.rb:37:in `call'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/worker.rb:37:in `run'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/worker.rb:32:in `fork'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/worker.rb:32:in `run'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/worker_pool.rb:33:in `check_workers'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/worker_pool.rb:30:in `each'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/worker_pool.rb:30:in `check_workers'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/process_manager.rb:32:in `monitor_workers'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/process_manager.rb:30:in `each'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/process_manager.rb:30:in `monitor_workers'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/process_manager.rb:28:in `loop'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/process_manager.rb:28:in `monitor_workers'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/engine.rb:52:in `start_loops!'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/commands/start_command.rb:19:in `execute'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/command.rb:24:in `invoke'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/cli/commands.rb:85:in `run!'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/cli/commands.rb:19:in `execute'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/bin/loops:8
+  script/loops:19:in `load'
+  script/loops:19
+F : 2010-03-19 15:35:49 : Terminating post_extractor worker: 23227
+F : 2010-03-19 15:35:49 : Worker exited with error: exit
+  /Users/dm/Projects/tmp/mechanize-presentation/lib/loops/amqp/bunny.rb:98:in `exit'
+  /Users/dm/Projects/tmp/mechanize-presentation/lib/loops/amqp/bunny.rb:98:in `disconnect_client_and_exit'
+  /Users/dm/Projects/tmp/mechanize-presentation/lib/loops/amqp/bunny.rb:62:in `run'
+  /Users/dm/Projects/tmp/mechanize-presentation/lib/loops/amqp/bunny.rb:36:in `times'
+  /Users/dm/Projects/tmp/mechanize-presentation/lib/loops/amqp/bunny.rb:36:in `run'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/engine.rb:155:in `start_loop'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/engine.rb:163:in `call'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/engine.rb:163:in `start_loop'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/worker.rb:37:in `call'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/worker.rb:37:in `run'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/worker.rb:32:in `fork'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/worker.rb:32:in `run'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/worker_pool.rb:33:in `check_workers'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/worker_pool.rb:30:in `each'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/worker_pool.rb:30:in `check_workers'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/process_manager.rb:32:in `monitor_workers'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/process_manager.rb:30:in `each'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/process_manager.rb:30:in `monitor_workers'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/process_manager.rb:28:in `loop'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/process_manager.rb:28:in `monitor_workers'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/engine.rb:52:in `start_loops!'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/commands/start_command.rb:19:in `execute'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/command.rb:24:in `invoke'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/cli/commands.rb:85:in `run!'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/lib/loops/cli/commands.rb:19:in `execute'
+  /opt/ree/lib/ruby/gems/1.8/gems/loops-2.0.0/bin/loops:8
+  script/loops:19:in `load'
+  script/loops:19
+F : 2010-03-19 15:35:49 : Terminating post_extractor worker: 23240
+E : 2010-03-19 15:35:59 : loop[post_extractor/23330]: Subscribing for the queue post_extractor...
+E : 2010-03-19 15:36:04 : loop[post_extractor/23329]: Subscribing for the queue post_extractor...
+F : 2010-03-19 15:44:19 : Worker exited with error: exit
+  
+F : 2010-03-19 15:44:19 : Terminating post_extractor worker: 23330
+F : 2010-03-19 15:44:24 : Worker exited with error: exit
+  
+F : 2010-03-19 15:44:24 : Terminating post_extractor worker: 23329
+E : 2010-03-19 15:44:28 : loop[post_extractor/24395]: Subscribing for the queue post_extractor...
+E : 2010-03-19 15:44:33 : loop[post_extractor/24412]: Subscribing for the queue post_extractor...
+F : 2010-03-19 15:52:48 : Worker exited with error: exit
+  
+F : 2010-03-19 15:52:48 : Terminating post_extractor worker: 24395
+F : 2010-03-19 15:52:53 : Worker exited with error: exit
+  
+F : 2010-03-19 15:52:53 : Terminating post_extractor worker: 24412
+E : 2010-03-19 15:52:58 : loop[post_extractor/25459]: Subscribing for the queue post_extractor...
+E : 2010-03-19 15:53:03 : loop[post_extractor/25472]: Subscribing for the queue post_extractor...
+F : 2010-03-19 16:01:18 : Worker exited with error: exit
+  
+F : 2010-03-19 16:01:18 : Terminating post_extractor worker: 25459
+F : 2010-03-19 16:01:23 : Worker exited with error: exit
+  
+F : 2010-03-19 16:01:23 : Terminating post_extractor worker: 25472
+E : 2010-03-19 16:01:28 : loop[post_extractor/26559]: Subscribing for the queue post_extractor...
+E : 2010-03-19 16:01:33 : loop[post_extractor/26572]: Subscribing for the queue post_extractor...
+F : 2010-03-19 16:09:48 : Worker exited with error: exit
+  
+F : 2010-03-19 16:09:48 : Terminating post_extractor worker: 26559
+F : 2010-03-19 16:09:53 : Worker exited with error: exit
+  
+F : 2010-03-19 16:09:53 : Terminating post_extractor worker: 26572
+E : 2010-03-19 16:09:58 : loop[post_extractor/27651]: Subscribing for the queue post_extractor...
+E : 2010-03-19 16:10:03 : loop[post_extractor/27665]: Subscribing for the queue post_extractor...
+F : 2010-03-19 16:18:18 : Worker exited with error: exit
+  
+F : 2010-03-19 16:18:18 : Terminating post_extractor worker: 27651
+F : 2010-03-19 16:18:23 : Worker exited with error: exit
+  
+F : 2010-03-19 16:18:23 : Terminating post_extractor worker: 27665
+E : 2010-03-19 16:18:28 : loop[post_extractor/28737]: Subscribing for the queue post_extractor...
+E : 2010-03-19 16:18:33 : loop[post_extractor/28750]: Subscribing for the queue post_extractor...
+F : 2010-03-19 16:26:48 : Worker exited with error: exit
+  
+F : 2010-03-19 16:26:48 : Terminating post_extractor worker: 28737
+F : 2010-03-19 16:26:53 : Worker exited with error: exit
+  
+F : 2010-03-19 16:26:53 : Terminating post_extractor worker: 28750
+E : 2010-03-19 16:26:58 : loop[post_extractor/29832]: Subscribing for the queue post_extractor...
+E : 2010-03-19 16:27:03 : loop[post_extractor/29845]: Subscribing for the queue post_extractor...

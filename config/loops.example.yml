@@ -1,0 +1,40 @@
+# This file is a configuration file for loops rails plugin
+#
+
+# This section is used to control loops manager
+global:
+  logger: stdout
+  poll_period: 5
+  workers_engine: fork
+
+generic_loop: &defaults
+  workers_number: 2
+  # queue_name: genn
+  queue_ack:  true
+  exchange: 'worker'
+  key: 'genn.*'
+  noop_sleep: 5
+  action_timeout: 40
+  max_requests: 5
+  connection:
+    host: localhost
+    user: guest
+    pass: guest
+    port: 5672
+    vhost: '/'
+    spec: '08'
+
+# Each record in this section represents one loop which could be ran using loops plugin.
+# Each loop should have a file in app/loops directory with the same name as its config record.
+loops:
+
+  post_finder:
+    <<:   *defaults
+    logger: log/loops/pages.log
+    key: 'genn.pages'
+
+  post_extractor:
+    <<:   *defaults
+    logger: log/loops/posts.log
+    key: 'genn.posts'
+

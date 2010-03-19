@@ -1,0 +1,59 @@
+E : 2010-03-19 15:22:48 : loop[post_finder/21593]: Subscribing for the queue post_finder...
+I : 2010-03-19 15:22:48 : loop[post_finder/21593]: Received page url: http://mega.genn.org/page/2/
+E : 2010-03-19 15:22:53 : loop[post_finder/21593]: Exception from process message! We won't be ACKing the message.
+E : 2010-03-19 15:22:53 : loop[post_finder/21593]: Details: undefined local variable or method `link' for #<LoopsParser:0x1026f1e60> at /Users/dm/Projects/tmp/mechanize-presentation/lib/loops_parser.rb:11:in `find_posts'
+E : 2010-03-19 15:23:41 : loop[post_finder/21719]: Subscribing for the queue post_finder...
+I : 2010-03-19 15:23:41 : loop[post_finder/21719]: Received page url: http://mega.genn.org/
+I : 2010-03-19 15:23:49 : loop[post_finder/21719]: Received page url: http://mega.genn.org/page/2/
+E : 2010-03-19 15:34:20 : loop[post_finder/23080]: Subscribing for the queue post_finder...
+I : 2010-03-19 15:34:21 : loop[post_finder/23080]: Received page url: http://mega.genn.org/
+E : 2010-03-19 15:34:25 : loop[post_finder/23081]: Subscribing for the queue post_finder...
+I : 2010-03-19 15:34:25 : loop[post_finder/23081]: Received page url: http://mega.genn.org/page/2/
+F : 2010-03-19 15:42:53 : Worker exited with error: exit
+  
+F : 2010-03-19 15:42:53 : Terminating post_finder worker: 23080
+F : 2010-03-19 15:42:58 : Worker exited with error: exit
+  
+F : 2010-03-19 15:42:58 : Terminating post_finder worker: 23081
+E : 2010-03-19 15:43:03 : loop[post_finder/24210]: Subscribing for the queue post_finder...
+E : 2010-03-19 15:43:08 : loop[post_finder/24223]: Subscribing for the queue post_finder...
+F : 2010-03-19 15:51:23 : Worker exited with error: exit
+  
+F : 2010-03-19 15:51:23 : Terminating post_finder worker: 24210
+F : 2010-03-19 15:51:28 : Worker exited with error: exit
+  
+F : 2010-03-19 15:51:28 : Terminating post_finder worker: 24223
+E : 2010-03-19 15:51:33 : loop[post_finder/25279]: Subscribing for the queue post_finder...
+E : 2010-03-19 15:51:38 : loop[post_finder/25292]: Subscribing for the queue post_finder...
+F : 2010-03-19 15:59:53 : Worker exited with error: exit
+  
+F : 2010-03-19 15:59:53 : Terminating post_finder worker: 25279
+F : 2010-03-19 15:59:58 : Worker exited with error: exit
+  
+F : 2010-03-19 15:59:58 : Terminating post_finder worker: 25292
+E : 2010-03-19 16:00:03 : loop[post_finder/26366]: Subscribing for the queue post_finder...
+E : 2010-03-19 16:00:08 : loop[post_finder/26382]: Subscribing for the queue post_finder...
+F : 2010-03-19 16:08:23 : Worker exited with error: exit
+  
+F : 2010-03-19 16:08:23 : Terminating post_finder worker: 26366
+F : 2010-03-19 16:08:28 : Worker exited with error: exit
+  
+F : 2010-03-19 16:08:28 : Terminating post_finder worker: 26382
+E : 2010-03-19 16:08:33 : loop[post_finder/27465]: Subscribing for the queue post_finder...
+E : 2010-03-19 16:08:38 : loop[post_finder/27478]: Subscribing for the queue post_finder...
+F : 2010-03-19 16:16:53 : Worker exited with error: exit
+  
+F : 2010-03-19 16:16:53 : Terminating post_finder worker: 27465
+F : 2010-03-19 16:16:58 : Worker exited with error: exit
+  
+F : 2010-03-19 16:16:58 : Terminating post_finder worker: 27478
+E : 2010-03-19 16:17:03 : loop[post_finder/28547]: Subscribing for the queue post_finder...
+E : 2010-03-19 16:17:08 : loop[post_finder/28560]: Subscribing for the queue post_finder...
+F : 2010-03-19 16:25:23 : Worker exited with error: exit
+  
+F : 2010-03-19 16:25:23 : Terminating post_finder worker: 28547
+F : 2010-03-19 16:25:28 : Worker exited with error: exit
+  
+F : 2010-03-19 16:25:28 : Terminating post_finder worker: 28560
+E : 2010-03-19 16:25:33 : loop[post_finder/29647]: Subscribing for the queue post_finder...
+E : 2010-03-19 16:25:38 : loop[post_finder/29661]: Subscribing for the queue post_finder...
