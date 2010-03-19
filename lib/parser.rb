@@ -26,16 +26,33 @@ class Parser
     page.search('h2 a.entry-title').each do |a|
       post = Post.find_by_orig_url(a[:href])
       post ||= Post.new
+      
+      post_page = @browser.click(a)
+      
       post.title = a.text
       post.orig_url = a[:href]
-      post.content = get_post_body(a)
+      post.content = post_page.at('.content .entry-content').to_s
+      
+      post.dots = grab_dotted_pattern(post_page.body.to_s)
+      
       post.save
     end
   end
   
-  def get_post_body(a)
-    post_page = @browser.click(a)
-    post_page.at('.content .entry-content').to_s
+  def grab_dotted_pattern(html)
+    js_page = Harmony::Page.new html
+    js_page.load('http://code.jquery.com/jquery-1.4.2.min.js')
+    asciify_dots(js_page.execute_js("$('.mclrs').html()"))
+  end
+  
+  def asciify_dots(html)
+    html.strip!
+    html.gsub!(/<script>.*<\/script>/m, '')
+    html.gsub!('<div class="mdt"></div>', ' ')
+    html.gsub!('<div class="mrdt"></div>', '.')
+    html.gsub!(/<div class="mclr" .*?>(.*)<\/div>/, "\\1\n")
+    html.gsub!(/\n+/, "\n")
+    html
   end
 
 end
